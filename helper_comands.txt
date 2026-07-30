@@ -1,0 +1,19 @@
+==================================================
+ GUIA RÁPIDO - COMANDOS ESSENCIAIS PYTHON (WINDOWS)
+==================================================
+
+1. CRIAR O AMBIENTE VIRTUAL (Executar apenas na 1ª vez na pasta):
+   python -m venv venv
+
+2. ATIVAR O AMBIENTE VIRTUAL (Sempre que abrir um terminal novo):
+   .\venv\Scripts\Activate
+
+3. INSTALAR/ATUALIZAR AS DEPENDÊNCIAS DO REQUIREMENTS:
+   pip install -r requirements.txt
+
+4. ADICIONAR UMA NOVA BIBLIOTECA E ATUALIZAR O REQUIREMENTS:
+   pip install nome_da_biblioteca
+   pip freeze > requirements.txt
+
+5. EXECUTAR UM SCRIPT:
+   python main.py
